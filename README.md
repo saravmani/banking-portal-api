@@ -1,7 +1,7 @@
 # Banking Portal Rest API Using Spring Boot & Spring Security
 
 ***
-
+Edit
 The Banking Portal API provides a set of endpoints for managing user accounts, fund transfers, and transactions. This project aims to facilitate secure and efficient banking operations for users.
 
 ## Features
