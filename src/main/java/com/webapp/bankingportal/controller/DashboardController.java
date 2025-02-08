@@ -21,7 +21,7 @@ public class DashboardController {
     private final DashboardService dashboardService;
 
     @GetMapping("/version")
-    public String getUserDetails() {
+    public String getApiVersion() {
         
         return "BankApi-0.0.1";
     }
