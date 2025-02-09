@@ -21,7 +21,6 @@ import com.webapp.bankingportal.security.JwtAuthenticationFilter;
 import com.webapp.bankingportal.service.TokenService;
 
 import jakarta.servlet.http.HttpServletResponse;
-
 import lombok.RequiredArgsConstructor;
 
 @Configuration
@@ -31,6 +30,8 @@ import lombok.RequiredArgsConstructor;
 public class WebSecurityConfig {
 
     private static final String[] PUBLIC_URLS = {
+        "/api/users/envvalue",
+            "/api/users/version",
             "/api/users/register",
             "/api/users/login",
             "/api/auth/password-reset/verify-otp",
