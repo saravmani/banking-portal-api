@@ -26,8 +26,6 @@ import lombok.RequiredArgsConstructor;
 public class UserController {
 
     private final UserService userService;
-    // @Value("${jwt.secret}")
-    // private String secret;
 
     @Autowired
     private org.springframework.core.env.Environment env;
@@ -40,7 +38,7 @@ public class UserController {
      
          
 
-        return "BankAPI-0.0.2";
+        return "BankAPI-0.0.3";
     }
 
     @GetMapping("/envvalue")
