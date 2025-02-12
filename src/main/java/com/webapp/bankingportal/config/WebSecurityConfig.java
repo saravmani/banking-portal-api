@@ -30,7 +30,7 @@ import lombok.RequiredArgsConstructor;
 public class WebSecurityConfig {
 
     private static final String[] PUBLIC_URLS = {
-        "/api/users/envvalue",
+     
             "/api/users/version",
             "/api/users/register",
             "/api/users/login",
